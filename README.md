@@ -107,7 +107,7 @@ We will use the alias to run a docker container. And after that we will give the
 ```bash
 $ rust-musl-builder cargo build --release
 ```
-That's it. The docker container was spinned, the volume was linked, the project was built. We can find the result in `target/x86_64-unknown-linux-musl/release/hello`.  
+That's it. The docker container was spinned, the volume was linked, the project was built. We can find the result in `target/x86_64-unknown-linux-musl/release/hello` on the host OS Debian.  
 
 ## Make it small
 
@@ -139,8 +139,8 @@ $ docker build --no-cache -t scratch_hello -t scratch_hello:$(utc) .
 ```
 For deployment reasons we want to give a version to the image. It is difficult to make this smart. I will just use the UTC date and time.  
 `--no-cache` for this example we avoid caching  
-`-t` means tag or name.There can be more than one tag curiously.  
-`.` means the Dockerfile is here in the Working Directory
+`-t` means tag or name. There can be more than one tag curiously.  
+`.` means the Dockerfile is here in the Working Directory  
 We can see it now in our list of local docker images:
 ```bash
 $ docker images
@@ -169,4 +169,4 @@ $ docker load --input scratch_hello-2020-08-26T11-45-51.tar
 $ docker tag scratch_hello:2020-08-26T11-45-51 scratch_hello:latest
 $ docker run scratch_hello
 ```
-Adding the tag `latest` make it easier to call that image later.  
+Adding the tag `latest` makes it easier to call that image later.  
