@@ -72,7 +72,7 @@ $ docker pull ekidd/rust-musl-builder
 $ alias rust-musl-builder='docker run --rm -it -v "$(pwd)":/home/rust/src ekidd/rust-musl-builder'
 # docker container can be run for only one execution and then removed
 # --rm means the container is removed after execution
-# -it means interactive (not in background)
+# -it means interactive + pseudo-tty (not in background)
 # -v Volume links a read/write host directory to the container file system
 # $(pwd) means "Present Working Directory" and has nothing to do with passwords
 # docker commands finish with the image name
