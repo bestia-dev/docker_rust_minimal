@@ -1,7 +1,7 @@
 # docker_rust_minimal
 
 **Docker is cool. Let's do Rust with Docker**  
-***version: 1.0  date: 2020-08-26 author: [dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/docker_rust_minimal)***  
+***version: 1.0  date: 2020-08-26 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/docker_rust_minimal)***  
 
 ## WSL2
 
@@ -99,7 +99,7 @@ Clone this repo:
 cd ~
 mkdir rustprojects
 cd rustprojects
-git clone git@github.com:LucianoBestia/docker_rust_minimal.git
+git clone git@github.com:bestia-dev/docker_rust_minimal.git
 
 ```  
 
