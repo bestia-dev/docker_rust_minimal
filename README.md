@@ -3,7 +3,7 @@
 **Docker is cool. Lets do Rust with Docker**  
 ***version: 1.0  date: 2020-08-26 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/docker_rust_minimal)***  
 
-![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/517782432)
+![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/517782432.svg)
 
 Hashtags: #rustlang #tutorial #docker  
 My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
