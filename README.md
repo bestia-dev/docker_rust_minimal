@@ -5,7 +5,9 @@
 **Docker is cool. Lets do Rust with Docker**  
 ***version: 1.0  date: 2020-08-26 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/docker_rust_minimal)***  
 
- ![status](https://img.shields.io/badge/tutorial-yellow)
+ ![maintained](https://img.shields.io/badge/maintained-green)
+ ![ready_for_use](https://img.shields.io/badge/ready_for_use-green)
+ ![tutorial](https://img.shields.io/badge/tutorial-yellow)
  ![docker_rust_minimal](https://bestia.dev/webpage_hit_counter/get_svg_image/517782432.svg)
 
 Hashtags: #rustlang #tutorial #docker  
